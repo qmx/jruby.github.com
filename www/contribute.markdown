@@ -18,7 +18,9 @@ JRuby depends on community contributions to survive. Here's how you can get invo
 
 *Need [Git help](http://git-scm.com/)? It's ok, we're not Git experts either.*
 
-**Build JRuby** - Once you've checked out the source, you just need to run &quot;ant&quot;&nbsp;or &quot;ant jar&quot;&nbsp;to build and &quot;ant test&quot;&nbsp;to run our test suite. We depend on <a href="http://ant.apache.org/">Apache Ant</a> 1.7.0 or higher.
+**Dependencies** - In order to build JRuby, you'll need a recent JDK (Java5 or higher), and <a href="http://ant.apache.org/">Apache Ant</a> 1.7.0 or higher.
+
+**Build JRuby** - Once you've checked out the source, you just need to run `ant` or `ant jar` to build. To run our test suite, you need to put JRuby's `bin` folder at your `$PATH` environment.
 
       ant
       ant jar
